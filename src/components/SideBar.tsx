@@ -1,6 +1,3 @@
-
-
-
 export const SideBar: React.FC = ({children}) => {
  return (
   <nav className="sidebar">

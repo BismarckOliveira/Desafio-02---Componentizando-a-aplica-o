@@ -3,12 +3,12 @@ interface ContentProps {
 }
 
 
-export const Content: React.FC<ContentProps> = (children, props) => {
+export const Content: React.FC<ContentProps> = ({children, title}) => {
  return (
 
-  <div className="container">
+  <div className="container" >
   <header>
-    <span className="category">Categoria:<span> {props.title}</span></span>
+    <span className="category">Categoria:<span>{title}</span></span>
   </header>
 
   <main>
